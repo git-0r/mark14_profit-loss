@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit-Loss</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../images/icons8-increase-48.png" type="image/x-icon">
+    <style>
+        .nav-link-api {
+
+            color: rgb(0, 255, 194, 0.3);
+            border-bottom: 1px solid rgb(0, 255, 194, 0.3);
+        }
+
+        .nav-link-manual {
+
+            color: rgb(0, 255, 194);
+            border-bottom: 1px solid rgb(0, 255, 194);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li class="nav-link">
+                <a class="nav-link-api" href="index.html">Use API</a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link-manual" href="withoutapi.html"> Manually</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Check
+            <span class="profit"> Profit</span> / <span class="loss"> Loss</span> on Your Stock
+        </h1>
+        <form action="#">
+
+            <label for="valuewas">1. Enter Initial Stock Value</label>
+            <input id="valuewas" type="number" min="1" required>
+
+            <label for="qty">2. Enter stock quantity</label>
+            <input id="qty" type="number" min="1" required>
+
+            <label for="valueis">3. Enter Current Stock Value</label>
+            <input id="valueis" type="number" min="1" required>
+
+            <button>click here</button>
+        </form>
+
+    </main>
+    <img src="../images/icons8-wait-48.png" class="loading">
+    <p class="result">
+        <img class="result-img" src="../images/icons8-decrease-48.png">
+    </p>
+
+
+    <script src="../js/withoutapi.js"></script>
+</body>
+
+</html>
