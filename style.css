@@ -116,4 +116,7 @@ button:hover {
     main{
         width: 70vw;
     }
+    nav{
+        font-size: 3vw;
+    }
 }
