@@ -55,7 +55,7 @@ function calculate(priceWas, qty, priceIs) {
 
         const lossperc = ((loss * 100) / totalInitialValue).toFixed(2);
 
-        result.innerHTML = `<img class="result-img" src="images/icons8-decrease-48.png" alt="">you lost ${lossperc}% your total loss is Rs ${loss}`;
+        result.innerHTML = `<img class="result-img" src="images/icons8-decrease-48.png">you lost ${lossperc}% your total loss is Rs ${loss}`;
 
         result.style.color = "red";
         result.style.display = "block";
@@ -67,7 +67,7 @@ function calculate(priceWas, qty, priceIs) {
 
         const profitperc = ((profit * 100) / totalInitialValue).toFixed(2);
 
-        result.innerHTML = `<img class="result-img" src="images/icons8-increase-48.png" alt="">you gained ${profitperc}% your total profit is Rs ${profit}`;
+        result.innerHTML = `<img class="result-img" src="images/icons8-increase-48.png">you gained ${profitperc}% your total profit is Rs ${profit}`;
 
         result.style.color = "green";
         result.style.display = "block";
