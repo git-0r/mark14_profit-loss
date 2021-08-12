@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit-Loss</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li class="nav-link">
+                <a class="nav-link-api" href="index.html">Use API</a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link-manual" href="#"> Manually</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <form action="#">
+            <p>1. Select Your Stock and purchase date to get stock price</p>
+
+            <select name="" id="">
+                <option value="ADANIENT.BSE">Adani Enterprises Ltd</option>
+                <option value="RELIANCE.BSE">Reliance Industries Ltd</option>
+                <option value="TCS.BSE">Tata Consultancy Services Ltd</option>
+                <option value="WIT">Wipro Limited</option>
+                <option value="ZOMATO.BSE">Zomato Ltd</option>
+                <option value="SBICARD.BSE">SBI Cards and Payment Services Ltd</option>
+                <option value="KTKSENSEX.BSE">Kotak Mahindra Bank Ltd</option>
+                <option value="TV18BRDCST.BSE">TV18 Broadcast Ltd</option>
+                <option value="M&M.BSE">Mahindra & Mahindra Ltd</option>
+                <option value="ITC.BSE">ITC Ltd</option>
+            </select>
+
+            <input class="date" type="date" name="" id="">
+            <p>2. Enter stock quantity</p>
+            <input class="qty" type="number" min="1" required>
+
+            <button>click here</button>
+        </form>
+
+    </main>
+    <img src="images/icons8-wait-48.png" class="loading">
+    <p class="result">
+        <img class="result-img" src="images/icons8-decrease-48.png" alt="">
+    </p>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
