@@ -119,4 +119,7 @@ button:hover {
     nav{
         font-size: 15vw;
     }
+    button{
+        font-size: 5vw;
+    }
 }
